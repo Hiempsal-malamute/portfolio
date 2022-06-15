@@ -28,7 +28,11 @@
   #nav {
     display: flex;
     padding: 30px;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: white;
   }
 
   #nav a {

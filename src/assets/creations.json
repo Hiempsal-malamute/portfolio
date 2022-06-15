@@ -1,0 +1,192 @@
+[
+  {
+    "nom": "Part de la population sachant lire et écrire en 1866",
+    "origine": "CGET – Valorisation de la librairie R SGF",
+    "type": "Édition",
+    "destinataire": "Pro",
+    "date": "11/2019",
+    "etat": "Fini",
+    "url_externe": "https://cartotheque.anct.gouv.fr/cartes?filters%5Bquery%5D=sgf&current_page=1&category=&page_size=20&query=",
+    "fichier": "part_de_la_population_sachant_lire_et_ecrire_en_1866_high.jpeg"
+  },
+  {
+    "nom": "Quartiers prioritaires du département de Haute-Savoie",
+    "origine": "ANCT – Atlas départemental et régional des quartiers prioritaires",
+    "type": "Édition",
+    "destinataire": "Pro",
+    "date": "01/2022",
+    "etat": "Fini",
+    "url_externe": "https://sig.ville.gouv.fr/atlas/QP_régions",
+    "fichier": "atlas_qp_69.png"
+  },
+  {
+    "nom": "La prise en compte de la biodiversité par les ScoT",
+    "origine": "ANCT – La transition écologique comme moteur de la cohésion des territoires",
+    "type": "Édition",
+    "destinataire": "Pro",
+    "date": "10/2020",
+    "etat": "Fini",
+    "url_externe": "https://agence-cohesion-territoires.gouv.fr/sites/default/files/2020-12/0202_anct-transition-eco-compil-web_0_1.pdf",
+    "fichier": "biodiversite_scot.png"
+  },
+  {
+    "nom": "Femmes et hommes : une géographie du temps partiel inversée",
+    "origine": "ANCT – Fiche d’analyse de l’Observatoire des territoires : Dimension territoriale de l’accès à l’emploi des femmes",
+    "type": "Édition",
+    "destinataire": "Pro",
+    "date": "02/2021",
+    "etat": "Fini",
+    "url_externe": "https://www.observatoire-des-territoires.gouv.fr/kiosque/2021-fiche-egalite-la-dimension-territoriale-de-lacces-lemploi-des-femmes",
+    "fichier": "ILL_2c_2-01.jpg"
+  },
+  {
+    "nom": "Une hausse de la concentration spatiale de la population entre 1801 et 1918",
+    "origine": "ANCT – Cahier de l’Observatoire des territoires – Territoires et transitions : enjeux démographiques",
+    "type": "Édition",
+    "destinataire": "Pro",
+    "date": "12/2021",
+    "etat": "Fini",
+    "url_externe": "https://www.observatoire-des-territoires.gouv.fr/kiosque/rapport-2021-2022-territoires-et-transitions-enjeux-demographiques",
+    "fichier": "ILL_1_b_7.jpg"
+  },
+  {
+    "nom": "Atlas des départements Français : Calvados (14)",
+    "origine": "ANCT – Atlas des départements français",
+    "type": "Édition",
+    "destinataire": "Pro",
+    "date": "02/2021",
+    "etat": "Fini",
+    "url_externe": "https://agence-cohesion-territoires.gouv.fr/sites/default/files/2021-03/202103_ANCTCartes-et-donnees_atlas-des-departements-fr-light.pdf",
+    "fichier": "portrait_departement_14.jpg"
+  },
+  {
+    "nom": "Annuaire cartographique France services",
+    "origine": "ANCT – programme national France services",
+    "type": "Web",
+    "destinataire": "Pro",
+    "date": "02/2020",
+    "etat": "Fini",
+    "url_externe": "https://anct-carto.github.io/france_services/",
+    "fichier": "fs_carte_interactive.jpg"
+  },
+  {
+    "nom": "Carte interactive Petites villes de demain ",
+    "origine": "ANCT – programme Petites villes de demain",
+    "type": "Web",
+    "destinataire": "Pro",
+    "date": "03/2021",
+    "etat": "Fini",
+    "url_externe": "https://anct-carto.github.io/pvd/",
+    "fichier": "dataviz_pvd.png"
+  },
+  {
+    "nom": "Localisation des maisons France services en Charente-Maritime",
+    "origine": "ANCT – programme national France services",
+    "type": "Édition",
+    "destinataire": "Pro",
+    "date": "02/2022",
+    "etat": "Fini",
+    "url_externe": "https://cartotheque.anct.gouv.fr/cartes?filters%5Bquery%5D=fs&filters%5Bechelle%5D%5BEchelle%5D%5B0%5D=field.Echelle%3ADépartement&current_page=1&category=&page_size=20&query=",
+    "fichier": "fs_localisation_17_charente-maritime_202205.png"
+  },
+  {
+    "nom": "Taux de foncier bâti sur les propriétés bâties et charge fiscale en commune Action Coeur de ville",
+    "origine": "ANCT – Géographie de la taxe foncière dans les agglomérations Action cœur de ville",
+    "type": "Édition",
+    "destinataire": "Pro",
+    "date": "07/2021",
+    "etat": "Fini",
+    "url_externe": "https://cartotheque.anct.gouv.fr/cartes?filters%5Bquery%5D=fs&filters%5Bechelle%5D%5BEchelle%5D%5B0%5D=field.Echelle%3ADépartement&current_page=1&category=&page_size=20&query=",
+    "fichier": "tx_foncier_bati_proprietes_baties_et_charge_fiscale_acv_high.jpeg"
+  },
+  {
+    "nom": "Les mobilités résidentielles en France : du local au national, deux réseaux emboités",
+    "origine": "CGET – Rapport de l’Observatoire des territoires sur les mobilités résidentielles ",
+    "type": "Poster",
+    "destinataire": "Pro",
+    "date": "06/2019",
+    "etat": "Fini",
+    "url_externe": "https://cartotheque.anct.gouv.fr/media/record/eyJpIjoiZGVmYXVsdCIsIm0iOm51bGwsImQiOjEsInIiOjMzMjZ9/",
+    "fichier": "tx_foncier_bati_proprietes_baties_et_charge_fiscale_acv_high.jpeg"
+  },
+  {
+    "nom": "Les territoires à l'ère de l'anthropocène : des milieux sous pression",
+    "origine": "CGET – Les territoires à l’ère de l’anthropocène",
+    "type": "Poster",
+    "destinataire": "Pro",
+    "date": "09/2019",
+    "etat": "Fini",
+    "url_externe": "https://cartotheque.anct.gouv.fr/media/record/eyJpIjoiZGVmYXVsdCIsIm0iOm51bGwsImQiOjEsInIiOjMzOTB9/",
+    "fichier": "les_territoires_a_lere_de_lanthropocene__des_milieux_sous_pression_high.jpeg"
+  },
+  {
+    "nom": "Les territoires à l'ère de l'anthropocène : une transition écologique amorcée",
+    "origine": "CGET – Les territoires à l’ère de l’anthropocène",
+    "type": "Poster",
+    "destinataire": "Pro",
+    "date": "09/2019",
+    "etat": "Fini",
+    "url_externe": "https://cartotheque.anct.gouv.fr/media/record/eyJpIjoiZGVmYXVsdCIsIm0iOm51bGwsImQiOjEsInIiOjMzOTF9/",
+    "fichier": "les_territoires_a_lere_de_lanthropocene__une_transition_ecologique_amorcee_high.jpeg"
+  },
+  {
+    "nom": "Tableau de bord : exploration sommaire de données immobilières",
+    "origine": "Création originale",
+    "type": "Web",
+    "destinataire": "Perso",
+    "date": "05/2020",
+    "etat": "Non fini",
+    "url_externe": "https://hiempsal-malamute.github.io/agh_immo",
+    "fichier": "dataviz_immo.png"
+  },
+  {
+    "nom": "[iso]hronoposte",
+    "origine": "Création originale",
+    "type": "Web",
+    "destinataire": "Perso",
+    "date": "",
+    "etat": "Non fini",
+    "url_externe": "https://hiempsal-malamute.github.io/chronoposte-isochrone/#/map-view?@=48.9420,2.2355,14",
+    "fichier": "dataviz_isochronoposte.png"
+  },
+  {
+    "nom": "Tableau de bord : wildfires in USA",
+    "origine": "Création originale",
+    "type": "Web",
+    "destinataire": "Perso",
+    "date": "02/2021",
+    "etat": "Non fini",
+    "url_externe": "https://hiempsal-malamute.github.io/us-wildfire-explorer/#/",
+    "fichier": "dataviz_uswildfires.png"
+  },
+  {
+    "nom": "Consommation et production d’énergie renouvelable",
+    "origine": "ANCT – La transition écologique comme moteur de la cohésion des territoires",
+    "type": "Édition",
+    "destinataire": "Pro",
+    "date": "10/2020",
+    "etat": "Fini",
+    "url_externe": "https://agence-cohesion-territoires.gouv.fr/sites/default/files/2020-12/0202_anct-transition-eco-compil-web_0_1.pdf",
+    "fichier": "conso_prod_enr.png"
+  },
+  {
+    "nom": "L’explosion des souscriptions à un abonnement Internet en Afrique",
+    "origine": "Master Carthagéo",
+    "type": "Édition",
+    "destinataire": "Perso",
+    "date": "02/2019",
+    "etat": "Non fini",
+    "url_externe": "",
+    "fichier": "internet_africa.png"
+  },
+  {
+    "nom": "Panorama interactif de répartition des crédits politique de la ville",
+    "origine": "ANCT – Mission à la vie associative",
+    "type": "Web",
+    "destinataire": "Pro",
+    "date": "En cours",
+    "etat": "Non fini",
+    "url_externe": "https://carto.pages.sit.incubateur.tech/vie-associative/#/",
+    "fichier": "dataviz_vie_associative.png"
+  }
+]
