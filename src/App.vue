@@ -3,7 +3,7 @@
     <router-link to="/">Portfolio</router-link>
     <router-link to="/about">À propos</router-link>
   </div>
-  <router-view/>
+  <router-view id="view"/>
 </template>
 
 <style>
@@ -25,9 +25,15 @@
     color: #2c3e50;
   }
 
+  #view {
+    margin-left:20px; 
+    margin-right:20px; 
+  }
+
   #nav {
     display: flex;
     padding: 30px;
+    padding:10px 30px 10px 30px;
     justify-content: flex-start;
     position: sticky;
     top: 0;

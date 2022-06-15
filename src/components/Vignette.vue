@@ -50,14 +50,19 @@ export default {
     .vignette {
         display: flex;
         position: relative;
-        flex-grow: column wrap;
-        width:330px;
-        /* transition:0.1s; */
+        flex-grow: 1;
+        max-width:300px;
+        transition:all 0.15s ease;;
         cursor:pointer;
         background:rgb(229, 229, 229);
         align-items: center;
-        border-radius: 20px !important;
+        border-radius: 10px;
         margin: 20px;
+        box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.3);
+    }
+
+    .vignette:hover {
+        transform: scale(1.025);
     }
 
     .vignette-title {
@@ -75,6 +80,7 @@ export default {
         justify-content: center;
         align-items: center;
     }
+    
 
     .vignette-title > span {
         margin: 10px;
@@ -82,12 +88,16 @@ export default {
 
     .vignette-title:hover {
         background-color:rgba(0, 0, 0, 0.55);
+        background: rgb(2,0,36);
+background: linear-gradient(166deg, rgba(2,0,36,0.30688185918898814) 0%, rgba(0,0,0,0.6710275174522935) 100%);
     }
 
     .preview {
-        width: 330px;
+        /* width: 330px; */
+        width: 100%;
         height:200px;
         object-fit: cover;
+        border-radius: 10px;
     }
 
     .image-big {
