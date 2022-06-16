@@ -70,7 +70,7 @@
     "fichier": "fs_carte_interactive.jpg"
   },
   {
-    "nom": "Carte interactive Petites villes de demain ",
+    "nom": "Carte interactive Petites villes de demain",
     "origine": "ANCT – programme Petites villes de demain",
     "type": "Web",
     "destinataire": "Pro",
@@ -101,7 +101,7 @@
   },
   {
     "nom": "Les mobilités résidentielles en France : du local au national, deux réseaux emboités",
-    "origine": "CGET – Rapport de l’Observatoire des territoires sur les mobilités résidentielles ",
+    "origine": "CGET – Rapport de l’Observatoire des territoires sur les mobilités résidentielles",
     "type": "Poster",
     "destinataire": "Pro",
     "date": "06/2019",
@@ -188,5 +188,25 @@
     "etat": "Non fini",
     "url_externe": "https://carto.pages.sit.incubateur.tech/vie-associative/#/",
     "fichier": "dataviz_vie_associative.png"
+  },
+  {
+    "nom": "Les activités télétraillables plus concentrées spatialement que les télétravailleurs",
+    "origine": "ANCT – Cahier de l’Observatoire des territoires – Territoires et transitions : économie",
+    "type": "Édition",
+    "destinataire": "Pro",
+    "date": "07/2022",
+    "etat": "Non fini",
+    "url_externe": "https://observatoire-des-territoires.gouv.fr",
+    "fichier": "teletravail.jpg"
+  },
+  {
+    "nom": "Typologie des EPCI selon les évolutions locales des actifs occupés et des emplois",
+    "origine": "ANCT – Cahier de l’Observatoire des territoires – Territoires et transitions : économie",
+    "type": "Édition",
+    "destinataire": "Pro",
+    "date": "07/2022",
+    "etat": "Non fini",
+    "url_externe": "https://observatoire-des-territoires.gouv.fr",
+    "fichier": "concentration_actifs_occ_emplois.jpg"
   }
 ]
