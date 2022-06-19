@@ -25,6 +25,11 @@
     color: #2c3e50;
   }
 
+  html,body {
+    position: relative;
+    margin:0;
+  }
+
   #view {
     margin-left:20px; 
     margin-right:20px; 

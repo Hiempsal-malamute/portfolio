@@ -58,6 +58,7 @@ export default {
 </script>
 
 <style scoped>
+
   .grid {
     display: flex;
     flex-wrap: wrap;

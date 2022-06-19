@@ -1,13 +1,14 @@
 <template>
-  <div class="vignette" @mouseover="hover=true" @mouseleave="hover=false">
-    <div class="vignette-title" v-if="hover" @click="clicked=true">
-        <span>{{ img.nom }}</span>
+    <div class="vignette" @mouseover="hover=true" @mouseleave="hover=false">
+        <div class="vignette-title" v-if="hover" @click="clicked=true">
+            <span>{{ img.nom }}</span>
+        </div>
+        <img :src="require(`@/assets/thumbnail/thumb_${img.fichier}`)" class="thumbnail">
     </div>
-    <img :src="require(`@/assets/img/${img.fichier}`)" class="preview">
-  </div>
-    <div class="image-big" v-if="clicked" @click.self="clicked=false">
-        <img :src="require(`@/assets/img/${img.fichier}`)" @click="clicked=true" class="real" >
-        <div class="infos" @click.self="clicked=false">
+    <div class="fullscreen" v-if="clicked" @click.self="clicked=false">
+        <img :src="require(`@/assets/img/${img.fichier}`)" @click="clicked=true" 
+              class="image-fullscreen" >
+        <div class="metadata" @click.self="clicked=false">
             <h3>{{img.nom}}</h3>
             <ul>
                 <li>                
@@ -49,7 +50,6 @@ export default {
 <style scoped>
     .vignette {
         display: flex;
-        position: relative;
         flex-grow: 1;
         max-width:300px;
         transition:all 0.15s ease;;
@@ -74,7 +74,6 @@ export default {
         height: 100%;
         position: absolute;
         flex-grow: column wrap;
-        /* z-index: 11000; */
         color:white;
         transition: 0.15s;
         justify-content: center;
@@ -89,10 +88,10 @@ export default {
     .vignette-title:hover {
         background-color:rgba(0, 0, 0, 0.55);
         background: rgb(2,0,36);
-background: linear-gradient(166deg, rgba(2,0,36,0.30688185918898814) 0%, rgba(0,0,0,0.6710275174522935) 100%);
+        background: linear-gradient(166deg, rgba(2,0,36,0.30688185918898814) 0%, rgba(0,0,0,0.6710275174522935) 100%);
     }
 
-    .preview {
+    .thumbnail {
         /* width: 330px; */
         width: 100%;
         height:200px;
@@ -100,28 +99,28 @@ background: linear-gradient(166deg, rgba(2,0,36,0.30688185918898814) 0%, rgba(0,
         border-radius: 10px;
     }
 
-    .image-big {
-        position: absolute;
+    .fullscreen {
+        position: fixed;
+        display: flex;
         top:0;
         right:0;
         bottom:0;
         left: 0;
-        display: flex;
-        width: 100% !important;
-        height: 100% !important;
-        background: rgba(0,0,0,.8);
-        z-index: 1000;
+        z-index: 100;
         vertical-align: middle;
         justify-content: center;
-        flex-grow: column;
+        flex-grow: 1;
+        background: rgba(0,0,0,.8);
     }
 
-    .real {
+    .image-fullscreen {
+        margin:20px;
         object-fit: contain;
-        max-width:1000px;
+        max-width:60vw;
+        height: 95vh;
     }
 
-    .infos {
+    .metadata {
         top:0;
         right:0;
         bottom:0;
@@ -131,8 +130,6 @@ background: linear-gradient(166deg, rgba(2,0,36,0.30688185918898814) 0%, rgba(0,
         margin-left: 100px;
         height: 100% !important;
         color: white;
-        display: flex;
-        flex-direction: column;
         vertical-align: middle;
     }
 
