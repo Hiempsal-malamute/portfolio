@@ -22,4 +22,4 @@ pnpm-debug.log*
 *.sln
 *.sw?
 .Rproj.user
-.Rhistory
+*.Rhistory

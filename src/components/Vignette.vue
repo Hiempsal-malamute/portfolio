@@ -107,17 +107,18 @@ export default {
         bottom:0;
         left: 0;
         z-index: 100;
-        vertical-align: middle;
         justify-content: center;
         flex-grow: 1;
         background: rgba(0,0,0,.8);
+
     }
 
     .image-fullscreen {
-        margin:20px;
+        align-self:center;
         object-fit: contain;
         max-width:60vw;
-        height: 95vh;
+        height: 90vh;
+        justify-items: center;
     }
 
     .metadata {
@@ -128,7 +129,6 @@ export default {
         max-width: 400px;
         text-align: left;
         margin-left: 100px;
-        height: 100% !important;
         color: white;
         vertical-align: middle;
     }
