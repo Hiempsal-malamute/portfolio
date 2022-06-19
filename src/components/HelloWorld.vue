@@ -3,20 +3,25 @@
     <h1>Hassen Chougar</h1>
     <span>Cartographe - géomaticien</span>
     <p>
-      Géographe de formation, j'exerce en tant que cartographe professionnel depuis l'obtention de mon Master 2 (Carthagéo) en octobre 2019.
+      Géographe et cartographe de formation, j'exerce en tant que professionnel depuis l'obtention de mon Master 2 (Carthagéo) en octobre 2019.
     </p>
     <h3>Si vous êtes curieux ...</h3>
     <ul>
-      <li><a href="mailto:https://chat.vuejs.org">Email</a></li>
-      <li><a href="https://www.linkedin.com/in/hassen-chougar-53a0aab5/" target="_blank" rel="noopener">Linkedin</a></li>
-      <li><a href="https://github.com/Hiempsal-malamute/" target="_blank" rel="noopener">Github</a></li>
+      <li><a href="mailto:https://chat.vuejs.org"><i class="icon lar la-envelope"></i> Email</a></li>
+      <li><a href="https://www.linkedin.com/in/hassen-chougar-53a0aab5/" target="_blank" rel="noopener"><i class="icon lab la-linkedin-in"></i> LinkedIn</a></li>
+      <li><a href="https://github.com/Hiempsal-malamute/" target="_blank" rel="noopener"><i class="icon lab la-github"></i> GitHub</a></li>
     </ul>
-    <i>Ce site web a été intégralement réalisé en HTML/CSS/Javascript et à l'aide du framework Vue.js 3</i>
-    <i>Le contenu de ce site est soumis au droit d'auteur ; toute reproduction ou copie est interdite sans l'accord de l'auteur et de l'organisme propriétaire de l'image.</i>
+    <div class="footer">
+      <i>Ce site web a été intégralement réalisé en HTML/CSS/Javascript et à l'aide du framework Vue.js 3</i>
+      <br>
+      <i>Le contenu de ce site est soumis au droit d'auteur ; toute reproduction ou copie est interdite sans l'accord de l'auteur et de l'organisme propriétaire de l'image.</i>
+    </div>
   </div>
 </template>
 
 <script>
+import 'line-awesome/dist/line-awesome/css/line-awesome.min.css'
+
 export default {
   name: 'HelloWorld',
   props: {
@@ -27,36 +32,43 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.hello {
-  display: flex;
-  flex-direction: column;
-}
+    .hello {
+      display: flex;
+      flex-direction: column;
+    }
 
-h3 {
-  margin: 40px 0 0;
-}
+    h3 {
+      margin: 40px 0 0;
+    }
 
-span {
-  margin-top:-20px;
-  margin-bottom: 20px;
-  font-style: italic;
-}
+    span {
+      margin-top:-20px;
+      margin-bottom: 20px;
+      font-style: italic;
+    }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
 
-i {
-  font-size: .8em;
-}
+    li {
+      display: inline-block;
+      margin: 0 10px;
+    }
 
+    a {
+      color: #42b983;
+    }
+
+    .footer {
+      font-size: .8em;
+      display: block;
+      margin-top: 30px;
+    }
+
+    .icon {
+      font-size: 25px;
+    }
 
 </style>
