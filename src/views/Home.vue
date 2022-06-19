@@ -4,7 +4,7 @@
     <h3>Portfolio cartographique - Hassen Chougar</h3>
     <p>
       Ceci est une présentation non exhaustive de mes travaux (carto)graphiques, réalisés
-      entre fin 2018 et juin 2022.
+      entre fin 2018 et juin 2022 dans un cadre, pour certains, professionnel, pour d'autres personnel.
     </p>
     <div class="filters">
       <ul>
