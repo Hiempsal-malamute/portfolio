@@ -7,7 +7,7 @@
     </p>
     <h3>Si vous êtes curieux ...</h3>
     <ul>
-      <li><a href="mailto:https://chat.vuejs.org"><i class="icon lar la-envelope"></i> Email</a></li>
+      <li><a href="hassen.chougar@ensg.eu"><i class="icon lar la-envelope"></i> Email</a></li>
       <li><a href="https://www.linkedin.com/in/hassen-chougar-53a0aab5/" target="_blank" rel="noopener"><i class="icon lab la-linkedin-in"></i> LinkedIn</a></li>
       <li><a href="https://github.com/Hiempsal-malamute/" target="_blank" rel="noopener"><i class="icon lab la-github"></i> GitHub</a></li>
     </ul>
