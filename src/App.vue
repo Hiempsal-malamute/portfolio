@@ -63,18 +63,20 @@
   #nav a::after {
     content: "";
     display:block;
+    margin:0 auto;
     margin-bottom: -2px;
     height: 2px;
     background-color: #42b983;
+    visibility: hidden;
     z-index: 1000;
     transform: scaleX(0);
-    transform-origin:bottom right;
-    transition: transform 0.25s ease-out;
+    transform-origin:left;
+    transition: transform 250ms ease-in-out;
   }
 
   #nav a:hover:after {
     visibility: visible;
     transform: scaleX(1);
-    transform-origin:bottom left;
+    transform-origin:left;
   }
 </style>
