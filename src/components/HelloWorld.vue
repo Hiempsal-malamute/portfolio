@@ -12,7 +12,7 @@
       <li><a href="https://github.com/Hiempsal-malamute/" target="_blank" rel="noopener"><i class="icon lab la-github"></i> GitHub</a></li>
     </ul>
     <div class="footer">
-      <i>Ce site web a été intégralement réalisé en HTML/CSS/Javascript et à l'aide du framework Vue.js 3</i>
+      <i>Ce site web a été intégralement écrit en HTML/CSS/Javascript et à l'aide du framework Vue.js 3</i>
       <br>
       <i>Le contenu de ce site est soumis au droit d'auteur ; toute reproduction ou copie est interdite sans l'accord de l'auteur et de l'organisme propriétaire de l'image.</i>
     </div>
