@@ -20,14 +20,14 @@
     "fichier": "atlas_qp_69.png"
   },
   {
-    "nom": "La prise en compte de la biodiversité par les ScoT",
+    "nom": "Pollution des eaux souterraines",
     "origine": "ANCT – La transition écologique comme moteur de la cohésion des territoires",
     "type": "Édition",
     "destinataire": "Pro",
     "date": "10/2020",
     "etat": "Terminé",
     "url_externe": "https://agence-cohesion-territoires.gouv.fr/sites/default/files/2020-12/0202_anct-transition-eco-compil-web_0_1.pdf",
-    "fichier": "biodiversite_scot.png"
+    "fichier": "Concentrations_nitrates_178x143.jpg"
   },
   {
     "nom": "Femmes et hommes : une géographie du temps partiel inversée",
@@ -48,6 +48,16 @@
     "etat": "Terminé",
     "url_externe": "https://www.observatoire-des-territoires.gouv.fr/kiosque/rapport-2021-2022-territoires-et-transitions-enjeux-demographiques",
     "fichier": "ILL_1_b_7.jpg"
+  },
+  {
+    "nom": "Entre 1962 et 1968, la croissance démographique portée par les villes et leur périphérie",
+    "origine": "ANCT – Cahier de l’Observatoire des territoires – Territoires et transitions : enjeux démographiques",
+    "type": "Édition",
+    "destinataire": "Pro",
+    "date": "12/2021",
+    "etat": "Terminé",
+    "url_externe": "https://www.observatoire-des-territoires.gouv.fr/kiosque/rapport-2021-2022-territoires-et-transitions-enjeux-demographiques",
+    "fichier": "ILL_1_c_5.jpg"
   },
   {
     "nom": "Atlas des départements Français : Calvados (14)",
@@ -178,6 +188,16 @@
     "etat": "Terminé",
     "url_externe": "",
     "fichier": "internet_africa.png"
+  },
+  {
+    "nom": "Softer climate, improved economy",
+    "origine": "Master Carthagéo",
+    "type": "Édition",
+    "destinataire": "Perso",
+    "date": "02/2019",
+    "etat": "Terminé",
+    "url_externe": "",
+    "fichier": "Softer climate, improved economy.png"
   },
   {
     "nom": "Panorama des subventions de la politique de la ville",

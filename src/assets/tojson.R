@@ -11,7 +11,7 @@ pacman::p_load(magick)
 files <- list.files("img/")
 
 for(f in files) {
-  if(f == "POSTER_MOBILITES-RESIDENTIELLES.jpg") {
+  if(f != "POSTER_MOBILITES-RESIDENTIELLES.jpg") {
   print(paste0("ouverture : ",f))
   img <- image_read(paste0("img/",f))  
   print(paste0("redimensionnement : ",f))
