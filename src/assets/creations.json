@@ -228,5 +228,15 @@
     "etat": "Terminé",
     "url_externe": "https://www.observatoire-des-territoires.gouv.fr/kiosque/rapport-2021-2022-territoires-et-transitions-enjeux-economiques",
     "fichier": "concentration_actifs_occ_emplois.jpg"
+  },
+  {
+    "nom": "MobiDep : migrations résidentielles en France",
+    "origine": "Création originale",
+    "type": "Web",
+    "destinataire": "Perso",
+    "date": "07/2023",
+    "etat": "Terminé",
+    "url_externe": "https://hiempsal-malamute.github.io/mobidep",
+    "fichier": "thumbnail-mobidep.png"
   }
 ]
